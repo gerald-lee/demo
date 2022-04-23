@@ -29,7 +29,7 @@ For example, if the id is changed to:
 Then, the server will hang for 50000 seconds under the attack.
 
 
-<img src="blue-vuln1.gif">
+<img src="blue.gif">
 
 
 ## Green
@@ -41,7 +41,7 @@ If an incorrect username is entered, it will return a message: 'Log in was unsuc
 If an existing username is entered with wrong password, it will also shows a message of 'Log in was unsuccessful' but in bold.
 Attackers can brute force a range of usernames to find out a list of usernames under this vulnearbility.
 
-<img src="green-vuln1.gif">
+<img src="green.gif">
 
 
 ## Red
@@ -54,7 +54,7 @@ If the 'id' parameter is changed to:
 ?id=11
 It will shows a hidden salesperson which is not available in the menu page. Internal data is leaked under IDOR attack.
 
-<img src="red-vuln1.gif">
+<img src="red.gif">
 
 
 ## Notes
