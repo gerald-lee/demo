@@ -25,7 +25,7 @@ If the 'id' parameter is changed to:
 ?id=' or 1=1'--
 It redirects to "Database query failed", which means it is vulnearable for SQL injection.
 For example, if the id is changed to:
-?id=' or sleep(50000)=0
+?id=' or SLEEP(50000)=0 --'
 Then, the server will hang for 50000 seconds under the attack.
 
 
